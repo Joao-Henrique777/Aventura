@@ -1,10 +1,13 @@
-background{
-color:antiquewhite
+body {
+    background-color: rgb(59, 124, 180);
+    color: blue;
 }
 
 
-button{
-color: purple;
+button {
+    background-color: black;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 

@@ -6,6 +6,7 @@ proximo.forEach(button => {
     button.addEventListener('click',function(){
         const Atual = document.querySelector('.ativo')
         const Proxima_Etapa = data_id
+        const Removerpasso = removeEventListener(passo(id))
 
 
     })

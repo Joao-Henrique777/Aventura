@@ -1,44 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aventura</title>
-
 </head>
-
 <body>
-    <main> class="passo-ativo" id="passo-0"
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Em um dia comum, estava você deitado em sua cama</p>
+            <button class="btn-proximo" data-proximo="1">Continuar deitado</button>
+            <button class="btn-proximo" data-proximo="2">Decide ir ao Pão de Açúcar</button>
+        </div>
 
-    <div> class="passo-ativo" id="passo-0">
-        <p>Em um dia comum, estava você deitado em sua cama</p>
-        <button> class="btn-proximo" data-proximo="1"> Continuar deitado</button>
-        <button> class="btn-proximo" data-proximo="2"> Decide ir ao pão de acuçar</button>
-    </div>
+        <div class="passo" id="passo-1.1">
+            <p>Após continuar deitado você decide se levantar</p>
+            <button class="btn-proximo" data-proximo="2">Próximo</button>
+        </div>
+ i
+         <div class="passo" id="passo-2" or id="passo-2.1">
+            <p>Você começa no Rio de Janeiro, subindo o Pão de Açúcar</p>
+        </div>
 
-    <div> class="passo-ativo" id="passo-1"></div>
-        <p>Após continuar deitado você decide se levantar</p>
-    <button> class="btn-proximo" data-proximo=""</button>
+        <div class="passo" id="passo-3">
+            <p>Foi para a Bahia mas acabou encontrando mais pistas que na verdade realmente está na Amazônia</p>
+        </div>
 
-
-    <div> class="passo-ativo" id="passo-2"></div>
-        <p>Você começa no Rio de Janeiro, subindo o Pão de Acuçar</p>
-
-
-    <div> class="passo-ativo" id="passo-2"></div>
-        <p>Foi para a Bahia mas acabou encontrando mais pistas que na verdade realmente está na Amazonia</p>
-
-    <div> class="passo-ativo" id="passo"</div>
-        <p>Na Amazonia finalmente encontra o tesouro perdido!</p>
-
-    </main>
-    <script scr="script.js"></script>
-    
-</body>
-</html>
+        <div class="passo" id="passo-4">
+            <p>Na Amazônia, você finalmente encontra o tesouro perdido.</p>
+        </div>
