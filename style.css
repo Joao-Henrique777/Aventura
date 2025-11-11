@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(59, 124, 180);
+    background-color: rgb(15, 36, 54);
     color: blue;
 }
 
 
 button {
     background-color: black;
-    color: azure;
+    color: rgb(103, 201, 201);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -16,6 +16,6 @@ button {
     display: none;
 }
 
-passo-ativo {
+.passo.ativo {
     display: block;
 }
