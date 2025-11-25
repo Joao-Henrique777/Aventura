@@ -1,15 +1,11 @@
-const proximo = document.querySelectorAll('.btn-proximo')
+const avanca = document.querySelectorAll('.btn-proximo');
 
-proximo.forEach(button => {
+avanca.forEach(button => {
     button.addEventListener('click', function(){
-        const Atual = document.querySelector('.ativo')
-        const Proxima_Etapa = 'passo-' + this.getAttribute('data-proximo')
-        const Removerpasso = removeEventListener(passo(id))
+        const atual = document.querySelector('.ativo');
+        const proximoPasso = 'passo-' + this.getAttribute('data-proximo');
 
-        Atual.classList;removeEventListener(Atual)
-        document.getElementById(Proxima_Etapa).classList.add('passo-ativo')
-
-
+        atual.classList.remove('ativo');
+        document.getElementById(proximoPasso).classList.add('ativo');
     })
-
 })
